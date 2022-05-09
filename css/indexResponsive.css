@@ -1,0 +1,53 @@
+/* Desktop */
+@media (min-width: 992px) {
+    /* blogs */
+    #blogs .content-item--wrap .text-item h6{
+        
+       
+       
+    }
+}
+
+/* Table */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* tour */
+  #tours .content-item .text-item {
+    padding: 15px;
+  }
+
+  /* foods */
+  #foods .content-img .img-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #foods .content-img .img-item:last-child {
+    display: flex;
+  }
+  #foods .content-img .img-item:last-child img {
+    margin-right: 20px;
+  }
+/* Tour register */
+
+  #tourRegister .content .content-form{
+    width: 80%;
+    
+  }
+
+
+}
+
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+  #tours .content-item h4 {
+    height: 30%;
+  }
+  /* Tour register */
+
+  #tourRegister .content .content-form{
+    width: 100%;
+    
+  }
+}

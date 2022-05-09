@@ -1,0 +1,41 @@
+#about {
+  height: 100%;
+}
+#about .content > h1,
+#about .content > p {
+  text-align: center;
+}
+
+#about .content {
+  padding: 3% 0;
+}
+
+#about .content .content-wrap {
+  display: flex;
+  width: 100%;
+}
+#about .content .content-wrap img {
+  padding: 10px 0;
+  width: 100%;
+}
+
+#about .content .content-wrap .text-item p {
+  line-height: 2rem;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  #about .content .history .content-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* Table */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+}

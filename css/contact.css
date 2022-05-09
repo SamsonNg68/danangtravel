@@ -1,0 +1,15 @@
+#contact{
+    padding: 3%;
+    height: 100%;
+}
+#contact .container > h1,
+#contact .container > p
+{
+    text-align: center;
+}
+#contact .content .contact-form .form-group{
+    line-height: 3rem;
+}
+#contact .content .contact-info p{
+    line-height: 2rem;
+}

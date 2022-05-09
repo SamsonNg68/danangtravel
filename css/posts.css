@@ -1,0 +1,95 @@
+#blogs {
+  padding: 3%;
+}
+#blogs > h1,
+#blogs > p {
+  text-align: center;
+}
+
+#blogs .content .blog-list .blog-item {
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+}
+#blogs .content .blog-list .blog-item div img {
+  width: 100%;
+}
+#blogs .content .blog-list .blog-item .text-item {
+  padding: 10px 20px;
+  text-align: justify;
+}
+#blogs .content  .text-item a {
+  text-decoration: none;
+  color: var(--title-color);
+}
+#blogs .content  .text-item a:hover {
+  text-decoration: none;
+  color: var(--hover-color);
+}
+#blogs .content .blog-list .blog-item .text-item h4 {
+  line-height: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+ 
+
+}
+#blogs .content .blog-list .blog-item .text-item p {
+  line-height: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  
+}
+
+#blogs .content .sidebar {
+  padding: 0 20px;
+}
+#blogs .content .sidebar .text-item {
+   
+
+}
+#blogs .content .sidebar .text-item h6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+#blogs .content .sidebar .text-item p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+   
+  }
+  
+  /* Table */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* blogs */
+  #blogs .content .blog-list .blog-item {
+    display: block;
+   
+  }
+
+}
+  /* mobile */
+  
+  @media only screen and (max-width: 767px) {
+    #blogs .content .blog-list .blog-item {
+        display: block;
+       
+      }
+
+}
